@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/valentine-day-gift-main/",
   plugins: [react()],
+  base: '/valentine-day-gift/',
 })
